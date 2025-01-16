@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'index.css'%}">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <img src="{% static 'assets/logo.jpeg' %}" alt="uma pessoa feliz no computador" class="logo">
+    </header>
+
+    <main>
+        <h1>Autenticação OAuth 2.0</h1>
+        <div class="social-media">
+            <div class="social-media-details">
+                <a href="http://localhost:8000/accounts/github/login/?process=login&next=%2Fmembers%2F">
+                    <img src="{% static 'assets/github.svg' %}" alt="Icone para autenticar no GitHub" class="social-media-icon">
+                </a>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

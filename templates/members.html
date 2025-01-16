@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'members.css'%}">
+    <title>Tech Membros</title>
+</head>
+<body>
+
+    <header>
+        <img src="{% static 'assets/member.jpeg' %}" alt="Imagem com varias pessoas felizes" class="logo">
+    </header>
+
+    <main>
+        <h1>Área para Membros</h1>
+        <h2>
+            Uma área de membros online exclusiva para membros registrados!
+        </h2>
+        <div class="logout-bnt-container">
+            <a href="http://localhost:8000/accounts/logout/" class="logout-bnt">Logout</a>
+        </div>
+    </main>
+
+</body>
+</html>
