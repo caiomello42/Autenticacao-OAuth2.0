@@ -36,9 +36,3 @@ Uma funcionalidade adicional implementada foi o **registro automático** de usu�
 - OAuth 2.0
 - GitHub (como provedor de autenticação)
 
-## 🚀 Como Rodar o Projeto
-
-### 1. Clone o Repositório
-
-```bash
-git clone https://github.com/guilhermeonrails/NOME_DO_REPOSITORIO.git
